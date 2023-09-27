@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="customers-suinsit-office-2.0.5">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/target/generated-sources/annotations"/>
+        <dependent-module archiveName="suinsit.framework.context-3.2.4.2-RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/suinsit.framework.context/suinsit.framework.context">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="suinsit.codegenerator.runtime-3.2.4.2-RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/suinsit.codegenerator.runtime/suinsit.codegenerator.runtime">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="suinsit.nocode.commons-3.2.4.2-RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/suinsit.nocode.commons/suinsit.nocode.commons">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="suinsit.framework.integration.mail-3.2.4.2-RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/suinsit.framework.integration.mail/suinsit.framework.integration.mail">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="suinsit.framework.webclient-3.2.4.2-RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/suinsit.framework.webclient/suinsit.framework.webclient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="suinsit.studio.designer-3.2.4.2-RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/suinsit.studio.designer/suinsit.studio.designer">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="suinsit.nocode.web-3.2.4.2-RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/suinsit.nocode.web/suinsit.nocode.web">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="enart-context-3.7.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/enart-context/enart-context">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="enart-security-3.7.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/enart-security/enart-security">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="enart-message-3.7.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/enart-message/enart-message">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="enart-persistence-3.7.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/enart-persistence/enart-persistence">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="enart-mathematic-3.7.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/enart-mathematic/enart-mathematic">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="enart-integration-s3-3.7.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/enart-integration-s3/enart-integration-s3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="enart-ui-zkoss-3.7.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/enart-ui-zkoss/enart-ui-zkoss">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="schema.model-3.7.2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/schema.model/schema.model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="schema.pgsql-3.7.2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/schema.pgsql/schema.pgsql">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="customers-suinsit-office"/>
+        <property name="java-output-path" value="/demo-suinsit-ecom-customer/target/classes"/>
+    </wb-module>
+</project-modules>
